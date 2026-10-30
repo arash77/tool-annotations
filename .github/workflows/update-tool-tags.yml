@@ -13,7 +13,6 @@ concurrency:
 
 jobs:
   update:
-    if: github.repository == 'usegalaxy-eu/tool-annotations'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
